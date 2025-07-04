@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-code project</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="QR">
+        <span>Enter your text or Url</span>
+        <input id="qr-text" type="text" placeholder="Text or url"/>
+        <div class="qr" id="qr">
+            <img  id="img" src="" alt="">
+        </div>
+        <button id="btn" onclick="qrGenerator()" >Generate  QR</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
